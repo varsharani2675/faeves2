@@ -457,6 +457,8 @@ margin-left: 3px;
    width: 260px;
    height: 290px;
    transition: all .40s;
+   object-fit: cover;
+   object-position:center;
 }
 
 .product-detail{
