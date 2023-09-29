@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faeves2</title>
+    <link rel="stylesheet" href="./page2.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <nav class=" navbar container "  >
+        <div class="left">
+            <ul class="list">
+                <li ><a href="#" class="shop-navigation">SHOP</a></li>
+                <li><a href="#" class="story-navigation">STORY</a></li>
+                <li><a href="#" class="ambassadors-navigation">AMBASSADORS</a></li>
+                <li><a href="#" class="daily faeves-navigation">DAILY FAEVES</a></li>
+            </ul>
+           
+        </div>
+          <div>
+            <a href="index.html" class="brand_logo"> 
+                <img src="./images/faeves_logo.svg" alt="">
+            </a>
+        </div>
+        
+        <div class="right_nav">
+        <div class="Language">
+            <p class="languageText">Language &nbsp;
+                <span class="languageOption"> EN | AR</span>
+            </p>
+        </div>
+        
+        <ul class="right_nav-bottom" style="display: flex;">
+            <li class="search">
+              <a href="/search.html" class="header-search-input">
+                <input type="text" placeholder="Search by keyword or item" disabled="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20.479" height="19.675" viewBox="0 0 20.479 19.675">
+                  <g id="Group_6273" data-name="Group 6273" transform="translate(0)">
+                    <path id="Path_17" data-name="Path 17" d="M-2770.068,1615.45h0a1.267,1.267,0,0,1-1.792,0l-4.611-4.611a8.842,8.842,0,0,0,1.677-1.909l4.727,4.727A1.267,1.267,0,0,1-2770.068,1615.45Z" transform="translate(2790.176 -1596.146)"></path>
+                    <g id="Group_17" data-name="Group 17">
+                      <path id="Path_18" data-name="Path 18" d="M-2864.127,1535.663a7.977,7.977,0,0,1-7.969-7.968,7.977,7.977,0,0,1,7.969-7.968,7.977,7.977,0,0,1,7.968,7.968A7.977,7.977,0,0,1-2864.127,1535.663Zm0-13.643a5.681,5.681,0,0,0-5.675,5.675,5.681,5.681,0,0,0,5.675,5.675,5.682,5.682,0,0,0,5.675-5.675A5.682,5.682,0,0,0-2864.127,1522.02Z" transform="translate(2872.096 -1519.727)"></path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+        
+            <li>
+              <button type="button" id="cartBtn" aria-label="cart" class="link nav-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18.964" height="22.563" viewBox="0 0 18.964 22.563">
+                  <g id="Group_10890" data-name="Group 10890" transform="translate(4.74)">
+                    <path id="Path_788" data-name="Path 788" d="M1314.534,172.689a.949.949,0,0,1-.948-.948V168.9H1307.9v2.845a.948.948,0,0,1-1.9,0V168.9a1.9,1.9,0,0,1,1.9-1.9h5.689a1.9,1.9,0,0,1,1.9,1.9v2.845A.949.949,0,0,1,1314.534,172.689Z" transform="translate(-1306 -167)"></path>
+                  </g>
+                  <path id="Path_789" data-name="Path 789" d="M1318.068,171H1302.9a1.9,1.9,0,0,0-1.9,1.9v12.327a2.845,2.845,0,0,0,2.845,2.845h13.275a2.844,2.844,0,0,0,2.845-2.845V172.9A1.9,1.9,0,0,0,1318.068,171Zm0,14.223a.949.949,0,0,1-.948.948h-13.275a.949.949,0,0,1-.948-.948V172.9h15.171Z" transform="translate(-1301 -165.505)"></path>
+                </svg>
+                <span class="cartQuantity"> 3 </span>
+              </button>
+            </li>
+        
+            <li>
+              <button type="button" id="signInBtn" aria-label="Sign-In" class="link nav-button">
+                <svg id="user_profile_people" data-name="user, profile, people" xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                  <path id="user_profile_people-2" data-name="user, profile, people" d="M12,11A5,5,0,1,0,7,6,5,5,0,0,0,12,11Zm0-8A3,3,0,1,1,9,6a3,3,0,0,1,3-3ZM4,23H20a1,1,0,0,0,1-1V18a5.006,5.006,0,0,0-5-5H8a5.006,5.006,0,0,0-5,5v4a1,1,0,0,0,1,1Zm1-5a3,3,0,0,1,3-3h8a3,3,0,0,1,3,3v3H5Z" transform="translate(-3 -1)"></path>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <a href="#" class="link burgerDropdown" id="burgerDropdown">
+                <svg id="Component_45_11" data-name="Component 45 – 11" xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18">
+                  <g id="Group_867" data-name="Group 867" transform="translate(0.001)">
+                    <g id="Group_866" data-name="Group 866">
+                      <g id="Group_865" data-name="Group 865">
+                        <g id="Group_864" data-name="Group 864">
+                          <g id="Group_863" data-name="Group 863">
+                            <rect id="Rectangle_861" data-name="Rectangle 861" width="22" height="2" transform="translate(-0.001)"></rect>
+                            <rect id="Rectangle_862" data-name="Rectangle 862" width="22" height="2" transform="translate(-0.001 8)"></rect>
+                            <rect id="Rectangle_863" data-name="Rectangle 863" width="22" height="2" transform="translate(-0.001 16)"></rect>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+               </a>
+            </li>
+          </ul>
+        </div>
+         </nav>
+
+          <!-- content and ImGAE   -->
+
+         <section class="first-section container">
+            <div class="background-content">
+              <p> ENTREPRENEUR. CLEAN BEAUTY. MILLIONAIRE. INFLUENCER. INNOVATOR  DETERMINED. IMMENSELY CURIOUS. GLOBAL LEADER. TEDEX SPEAKER. EX LAWYER. ETHICAL. YOGA PRACTITIONER. TRAVELLER. PLANET LOVER. VORACIOUS READER. EUROPEAN. CONSTANT LEARNER. PATIENT. ETHICAL. ENTREPRENEUR. CLEAN BEAUTY. MILLIONAIRE. INFLUENCER. INNOVATOR DETERMINED. IMMENSELY CURIOUS. GLOBAL LEADER. TEDEX SPEAKER. EX LAWYER.YOGA PRACTITIONER. TRAVELLER. PLANET LOVER. VORACIOUS READER. EUROPEAN. CONSTANT LEARNER. PATIENT.
+            </p>
+
+
+            </div>
+            <img src="./images/aboutPage/about-slider/about-img-five.jpg" alt="">
+         </section>
+
+       <div class="product-seperator">
+          <span></span>
+      </div>
+      <br>    
+      <!-- ICON -->
+
+        <div class="nikkie" >
+          <h1>NIKKIE TUTORIALS</h1>
+          <ul class="nikki-nav-icons">
+            <li><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M386.044-164.551q-23.087-35.71-37.794-74.811-14.706-39.101-25.206-87.247H187.217q30.812 61.478 81.515 103.334 50.703 41.855 117.312 58.724ZM161.603-395.42h148.571q-3.231-21.899-4.398-40.739-1.167-18.841-1.167-42.508 0-20.434.834-40.891.833-20.456 4.065-44.355H161.603q-5.791 21.71-8.407 41.594-2.616 19.884-2.616 43.652 0 24.334 2.616 42.935 2.616 18.602 8.407 40.312Zm25.614-237.116h135.16q11.167-48.812 26.54-89.196t37.794-75.051q-72.899 25.247-119.791 64.261-46.891 39.014-79.703 99.986Zm207.435 0h171.174q-14.376-56.044-35.471-99.739-21.094-43.696-51.109-78.609-29.348 35.58-50.493 80.275-21.145 44.696-34.101 98.073Zm244.21 0h134.022q-32.522-57.101-84.268-100.239-51.747-43.138-115.979-63.341 22.42 34.667 38.442 75.167t27.783 88.413ZM480-54.146q-88.878 0-166.308-32.854-77.431-32.855-135.634-90.203Q119.855-234.551 87-312.304q-32.855-77.754-32.855-166.56 0-88.487 32.855-166.348 32.855-77.86 91.058-136.252 58.203-58.391 135.734-91.579 77.531-33.189 166.521-33.189 88.673 0 166.049 33.189 77.377 33.188 135.58 91.579 58.203 58.392 91.246 136.102 33.044 77.71 33.044 166.695 0 10.783-.239 21.725-.24 10.942-2.008 21.725h-98.898q1.435-10.449 2.507-20.78 1.073-10.331 1.073-22.67 0-23.768-2.805-43.652-2.804-19.884-7.529-41.594H650.304q1.623 25.899 3.029 45.022 1.406 19.123 1.406 40.224 0 8.216-.334 17.775-.333 9.559-.959 25.675h-71.084q1.334-13.493 1.885-23.247.55-9.753.55-20.203 0-20.434-.79-39.558-.789-19.123-4.1-45.688H380.551q-3.667 26.565-4.834 45.688-1.166 19.124-1.166 39.558 0 20.334 1.166 38.508 1.167 18.173 4.95 44.739H525.45v68.811H394.652q16.956 62.812 37.101 104.863t47.493 72.601q13.45-15.029 25.387-33.057 11.938-18.029 20.817-37.204v161.493q-11.493 2.811-22.781 3.29-11.287.478-22.669.478Zm318-38.767L688.551-203.03v76.913h-96.435v-242.435h242.435v96.435h-77.913L865.522-162 798-92.913Z"/></svg></li>
+            <li><i class='bx bxl-facebook'></i></li>
+            <li><i class='bx bxl-linkedin'></i></li>
+            <li><i class='bx bxl-twitter'></i></li>
+            <li><i class='bx bxl-instagram' ></i></li>
+
+        </ul>
+
+        </div> 
+
+         <!-- HEADING -->
+
+        <div class="founder"> <p class="content"> FOUNDER </p>
+          <h4 class="text">NIMYA</h4>
+        </div>
+        <section>
+          <div class="heading"> Let's get acquaited</div>
+          <div class="brand-text"> Nikkie Tutorials is Nimya's guide. being part of the beauty industry for over 14 years, Nikkie de Jager has seen it <br>
+          all. What to do when yoy still miss that perfect product...? You try to make it ypurself. <br>
+          She finds and helps create the ultimate products that are essential in your beauty routine. Nikkie's essential are <br>
+          innovative and always a must-have!As Nimya gives you the tools to be the true version of you, Nikkie will continue <br>
+          to teach you how to use these tools in the best way possible. <br>
+          She knows how important it is to have the right products for every occasion. These products are your base and <br>
+          give you power. The power of makeup, the Power of You!   </div>
+          
+         
+
+        </section>
+          
+        <!--- 2 Nav Heading-->
+
+        <div class="text-dark" >
+          <p>All Posts</p>  <p>Bolt Beauty </p>  <p>Articles</p> <p>Reviews </p>  <p>Tutorials </p>
+        </div>
+      
+       <!-- DARK IMG ND VIDEO-->
+
+      <section class="article-dark custom_container " id="products"  >
+        <div class="nikkies-dark ">
+          <div class="row-dark_img">
+            <div class="row-dark-img">
+              <img src="./images/articlePopup/article-popup-img2.jpg" alt="">
+            <p>article</p>
+
+            </div>
+        
+            <div class="nikkie-dark ">
+              <p> NIKKIE LAUNCHED BY YOUTUBER NIKKIE TUTORIALS</p>
+            </div>
+            <div class="nikkie-details">
+               Nikkie Tutorial | Founder of Nimya
+            </div>
+             <div class="content-dark">
+              <p> Here is the new Scarlett Johanson/Doice & gabbans Make-up campaign. Photographed by Solve Sundsbo.Johnson <br>
+                showcases her 'ever-dynamic persona' as her look...</p>
+                <div class="product_foot">
+                  <p>LIP_SERUM</p> <p>KARI_GRAN</p> <p>BEST_BALM</p> <p>FAEVES_KARIGRAN</p>
+                </div>
+             </div>
+          </div>
+          <div class="video-dark ">
+            <div class="dark-video">
+              <video src="./videos/_import_60ced519b18d25.96724619_preview.mp4" autoplay loop muted ></video>
+             <p>tutorial</p>
+            </div>
+           
+            <div class="nikkie-dark ">
+              <p> JOURNEY OF MY MAKEUP!</p>
+            </div>
+            <div class="nikkie-details">
+               Nikkie Tutorial | Founder of Nimya
+            </div>
+             <div class="content-dark">
+              <p> I’ve partnered with NARS for this video and I’ll be showing you how I create the ULTIMATE summer glam which is also <br>
+                 my signature look (using their Bronzing Collection), creating an effortless looking seamless base that’ll make you glow…</p>
+                <div class="product_foot">
+                  <p>LIP_SERUM</p> <p>KARI_GRAN</p> <p>BEST_BALM</p> <p>FAEVES_KARIGRAN</p>
+                </div>
+             </div>
+          </div>
+        
+        </div>
+     
+
+      <!--8 DARK IMG -->
+     
+      <div class="products-dark custom_container">
+        <div class="row-dark">
+          <img src="./images/curatedBrand/curatedBrand_oneHov.jpg" alt="">
+           <div class="product-dark">
+            <p>@Layala Lemmens</p>
+           </div>
+         
+           <div class="ratting-dark">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+           </div>
+           <div class="product-detail"> "This Serum Balm ain't no joke, and I am here <br>
+            for it."</div>
+
+           <div class="price-dark">
+            <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+                how do they look without makeup at the beginning of the career ?I would <br>
+                say... </h6>
+                <div class="product_foot"> <p>LIP_SERUM </p> <p> NIMYA </p> 
+                   <p> BESST_BALM</p> <p> NIKKE_TUTORIALS</p></div>
+           </div>
+        </div>
+              
+        <div class="row-dark">
+          <img src="./images/reviewSlider/revImg_one.jpg" alt="">
+           <div class="product-dark">
+            <p>@Layala Lemmens</p>
+           </div>
+        
+           <div class="ratting-dark">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <p class='bx bxs-star'></p>
+           </div>
+           <div class="product-detail">You guys are so conscientious as well as <br>
+            making fabulous products I cannot live without!</div>
+
+           <div class="price-dark">
+            <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+              how do they look without makeup at the beginning of the career ?I would <br>
+              say...  </h6> 
+              <div class="product_foot"> <p>CONDITIONER </p> <p>FIEVES_NIMYA </p> 
+                <p>HAIR_CARE</p></div>
+           </div>
+        </div>
+        <div class="row-dark">
+          <img src="./images/signup/shopCategory/category_three.png" alt="">
+           <div class="product-dark">
+            <p> @Layala Lemmens</p>
+           </div>
+         
+           <div class="ratting-dark">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bx-star'></i>
+           </div>
+            <div class="product-detail"> "When you hear that Lip Whips are 15% off"</div>
+
+           <div class="price-dark">
+            <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+              how do they look without makeup at the beginning of the career ?I would <br>
+              say... </h6>
+              <div class="product_foot"> <p>LIP_SERUM </p> <p>NIKKIE_TUTORIALS </p> 
+                <p> BESST_BALM</p> <p> FAEVES_NIMYA</p></div>
+
+           </div>
+        </div>
+        <div class="row-dark">
+          <img src="./images/ambassadors/lisa-sexton.jpg" alt="">
+           <div class="product-dark">
+            <p>@Layala Lemmens</p>
+           </div>
+          
+           <div class="ratting-dark">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half' ></i>
+            
+           </div>
+           <div class="product-detail">"When you hear that Lip Whips are 15% off"</div>
+
+           <div class="price-dark">
+            <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+              how do they look without makeup at the beginning of the career ?I would <br>
+              say...</h6>
+              <div class="product_foot"> <p>LIP_SERUM </p> <p>NIKKE_TUTORIALS </p> 
+                <p> BESST_BALM</p> <p>FAEVES_NIMYA</p></div>
+
+           </div>
+        </div>
+      </div>
+
+          <!-- DARK IMG 2 -->
+
+  
+          <div class="products-dark custom_container">
+            <div class="row-dark">
+              <img src="./images/signup/shopCategory/category_oneHov.jpg" alt="">
+               <div class="product-dark">
+                <p>@Layala Lemmens</p>
+               </div>
+             
+               <div class="ratting-dark">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+               </div>
+               <div class="product-detail"> "This Serum Balm ain't no joke, and I am here <br>
+                for it."</div>
+
+               <div class="price-dark">
+                <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+                    how do they look without makeup at the beginning of the career ?I would <br>
+                    say... </h6>
+                    <div class="product_foot"> <p>LIP_SERUM </p> <p> NIMYA </p> 
+                       <p> BESST_BALM</p> <p> NIKKE_TUTORIALS</p></div>
+               </div>
+            </div>
+                  
+            <div class="row-dark">
+              <img src="./images/ambassadorPage/artists/artist-three.jpg" alt="">
+               <div class="product-dark">
+                <p>@Layala Lemmens</p>
+               </div>
+            
+               <div class="ratting-dark">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <p class='bx bxs-star'></p>
+               </div>
+               <div class="product-detail">You guys are so conscientious as well as <br>
+                making fabulous products I cannot live without!</div>
+
+               <div class="price-dark">
+                <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+                  how do they look without makeup at the beginning of the career ?I would <br>
+                  say...  </h6> 
+                
+               </div>
+            </div>
+            <div class="row-dark">
+              <img src="./images/ambassadorPage/influencers/influencer-two.jpg" alt="">
+               <div class="product-dark">
+                <p> @Layala Lemmens</p>
+               </div>
+             
+               <div class="ratting-dark">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bx-star'></i>
+               </div>
+                <div class="product-detail"> "When you hear that Lip Whips are 15% off"</div>
+
+               <div class="price-dark">
+                <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+                  how do they look without makeup at the beginning of the career ?I would <br>
+                  say... </h6>
+                  <div class="product_foot"> <p>LIP_SERUM </p> <p>NIKKIE_TUTORIALS </p> 
+                    <p> BESST_BALM</p> <p> FAEVES_NIMYA</p></div>
+
+               </div>
+            </div>
+            <div class="row-dark">
+              <img src="./images/ambassadorPage/artists/artist-two.jpg" alt="">
+               <div class="product-dark">
+                <p>@Layala Lemmens</p>
+               </div>
+              
+               <div class="ratting-dark">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+                
+               </div>
+               <div class="product-detail">"When you hear that Lip Whips are 15% off"</div>
+
+               <div class="price-dark">
+                <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+                  how do they look without makeup at the beginning of the career ?I would <br>
+                  say...</h6>
+                  <div class="product_foot"> <p>LIP_SERUM </p> <p>NIKKE_TUTORIALS </p> 
+                    <p> BESST_BALM</p> <p>FAEVES_NIMYA</p></div>
+
+               </div>
+            </div>
+             <!-- VIEW MORE -->
+            <div class="view-more"><p>VIEW MORE</p></div>
+          </div>
+            
+      </section>
+      
+       <!-- FOOTER -->
+
+       <footer class="footer container">
+        <div class="custom_container">
+        <div class="footer-line">
+       <span></span>
+
+    <a class="footer-logo-link" href="/">
+      <img class="footer-logo-img" src="./images/faeves_logo.svg" alt="">
+    </a>
+
+    <span></span>
+  </div>
+
+  <div class="footer-link-list">
+    <div class="footer-coloumn footer_list">
+      <p class="first-coloumn-heading"><strong>About faeves</strong></p>
+      <a href="#" class="first-coloumn-link"> About faeves </a>
+      <a href="#" class="first-coloumn-link">Newsroom </a>
+      <a href="#" class="first-coloumn-link"> Careers </a>
+      <a href="#" class="first-coloumn-link">Ambassadors </a>
+      <a href="#" class="first-coloumn-link">Faeves Daily </a>
+      <a href="#" class="first-coloumn-link"> Affiliates </a>
+      <a href="#" class="first-coloumn-link"> Gift Cards </a>
+      <a href="#" class="first-coloumn-link"> Checkout on Instagram </a>
+    </div>
+    <div class="footer-coloumn footer_list">
+        <p class="first-coloumn-heading"><strong>My faeves</strong></p>
+        <a href="#" class="first-coloumn-link"> Beauty Insider </a>
+        <a href="#" class="first-coloumn-link"> Community Profile </a>
+        <a href="#" class="first-coloumn-link"> Order Status </a>
+        <a href="#" class="first-coloumn-link">Purchase History </a>
+        <a href="#" class="first-coloumn-link">Account Settings </a>
+        <a href="#" class="first-coloumn-link">
+          Beauty Advisor Recommendations
+        </a>
+        <a href="#" class="first-coloumn-link"> Beauty Offers</a>
+      </div>
+
+
+      <div class="footer-coloumn footer_list">
+        <p class="first-coloumn-heading"> <strong> Help</strong></p>
+        <a href="#" class="first-coloumn-link"> Customer Service </a>
+        <a href="#" class="first-coloumn-link"> Returns &amp; Exchanges</a>
+        <a href="#" class="first-coloumn-link"> Buy Online </a>
+        <a href="#" class="first-coloumn-link">Shipping </a>
+        <a href="#" class="first-coloumn-link">Billing </a>
+        <a href="#" class="first-coloumn-link">International Shipments </a>
+      </div>
+
+      <div class="footer-coloumn footer_list">
+        <p class="first-coloumn-heading"> <strong>Quick links</strong></p>
+        <a href="#" class="first-coloumn-link"> OFFER ZONE</a>
+        <a href="#" class="first-coloumn-link"> NEW LAUNCHES</a>
+        <a href="#" class="first-coloumn-link"> Categories </a>
+        <a href="#" class="first-coloumn-link">Brands </a>
+        <a href="#" class="first-coloumn-link">SITEMAP </a>
+      </div>
+   
+      </div>
+   
+
+    </div>
+
+  </div>
+
+  <div class="footer-socials">
+    <div class="footer-social-media">
+      <div class="social-links">
+        <a href="#" class="footer-facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13.286" height="25.588" viewBox="0 0 13.286 25.588">
+            <g id="Group_311" data-name="Group 311" transform="translate(13.286) rotate(90)">
+              <path id="f" d="M25.586,4.663H13.915V.746L9.364.159v4.5h-2.9c-1.319,0-2.214-.365-2.214-2.255V0H.179A33.246,33.246,0,0,0,0,3.508c0,3.473,2.121,5.85,6.013,5.85H9.368v3.927h4.551V9.359H25.588Z" transform="translate(0)"></path>
+            </g>
+          </svg>
+        </a>
+        <a href="#" class="footer-facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25.465" height="25.587" viewBox="0 0 25.465 25.587">
+            <g id="whatsapp.46d36d08" transform="translate(25.465) rotate(90)">
+              <path id="Path_8" data-name="Path 8" d="M25.587,25.465l-6.573-1.8a12.678,12.678,0,1,1,6.353-10.987h0a12.7,12.7,0,0,1-1.543,6.06Zm-4.06-7.033.227-.385a10.52,10.52,0,0,0,1.47-5.364h0A10.549,10.549,0,1,0,18.286,21.6l.4-.251,3.887,1.064Z" transform="translate(0 0)"></path>
+              <path id="Path_9" data-name="Path 9" d="M8.872.038C8.738.118,8.663.329,8.5.646S7.579,2.521,7.473,2.81s-.16.5.159.712,1.031.819,1.24,1,.24.369.08.687A8.645,8.645,0,0,1,7.38,7.76,9.517,9.517,0,0,1,5.188,9.524c-.318.184-.49.02-.646-.135s-.371-.316-.555-.475A2.163,2.163,0,0,0,3.455,8.6a.58.58,0,0,0-.553.027c-.16.079-1.72.712-2.354.976s-.538.519-.538.712-.01.4-.01.607a1.159,1.159,0,0,0,.4.845,3.554,3.554,0,0,0,2.642,1.108,6.152,6.152,0,0,0,3.277-1.295A14.1,14.1,0,0,0,11.1,6.168a17.787,17.787,0,0,0,.673-1.806,4.331,4.331,0,0,0,.128-2A3.266,3.266,0,0,0,10.4.227,2.658,2.658,0,0,0,8.872.038Z" transform="translate(6.829 6.252)" fillrule="evenodd"></path>
+            </g>
+          </svg>
+        </a>
+
+        <a href="#" class="footer-facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path id="Path_1036" data-name="Path 1036" d="M5559.127,5442.125c3.2,0,3.6,0,4.8.1,3.3.1,4.8,1.7,4.9,4.9.1,1.3.1,1.6.1,4.8s0,3.6-.1,4.8c-.1,3.2-1.7,4.8-4.9,4.9-1.3.1-1.6.1-4.8.1s-3.6,0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9-.1-1.3-.1-1.6-.1-4.8s0-3.6.1-4.8c.1-3.2,1.7-4.8,4.9-4.9C5555.527,5442.125,5555.927,5442.125,5559.127,5442.125Zm0-2.2c-3.3,0-3.7,0-4.9.1-4.4.2-6.8,2.6-7,7-.1,1.2-.1,1.6-.1,4.9s0,3.7.1,4.9c.2,4.4,2.6,6.8,7,7,1.2.1,1.6.1,4.9.1s3.7,0,4.9-.1c4.4-.2,6.8-2.6,7-7,.1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C5562.827,5439.925,5562.427,5439.925,5559.127,5439.925Zm0,5.8a6.2,6.2,0,1,0,6.2,6.2A6.231,6.231,0,0,0,5559.127,5445.725Zm0,10.2a4,4,0,1,1,4-4A4.012,4.012,0,0,1,5559.127,5455.925Zm6.4-11.8a1.4,1.4,0,1,0,1.4,1.4A1.367,1.367,0,0,0,5565.527,5444.125Z" transform="translate(-5547.127 -5439.925)"></path>
+          </svg>
+        </a>
+      </div>
+      <span class="social-link-seperator"> </span>
+    </div>
+
+    <h4 class="email-heading">We also make emails</h4>
+    <p class="email-instruction">
+      Receive email updates on stuff you’ll probably want to know about,
+      including products, launches, and events. <br>
+      Unsubscribe anytime.
+    </p>
+    <div class="input-container">
+      <input class="email-input" type="email" placeholder="name@email.com">
+      <button class="submit-button" type="button">Subscribe</button>
+    </div>
+
+    <div class="copyright-container">
+      <p class="copyright">©2021 Faeves Inc. All rights reserved</p>
+      <div class="bottom-link">
+        <a href="#" class="privacy-policy"> Privacy Policy </a>
+        <a href="#" class="privacy-policy"> Terms of Use </a>
+        <a href="#" class="privacy-policy"> Accessibility </a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+</body>
+</html>
